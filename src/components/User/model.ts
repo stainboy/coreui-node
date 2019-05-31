@@ -18,7 +18,7 @@ export interface IUserModel extends Document {
     facebook: string;
     tokens: AuthToken[];
 
-    locale: string; // transient, which stores in scaffold-java app
+    locale: string; // transient, which stores in coreui-java app
 
     profile: {
         name: string,

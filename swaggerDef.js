@@ -4,7 +4,7 @@ module.exports = {
     openapi: '3.0.0',
     info: {
         // API informations (required)
-        title: 'EYS Lab scaffold-node', // Title (required)
+        title: 'EYS Lab scaffold project', // Title (required)
         version: '1.0.0', // Version (required)
         description: 'A sample API', // Description (optional)
     },

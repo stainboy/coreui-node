@@ -33,7 +33,7 @@ export async function findOne(req: Request, res: Response, next: NextFunction): 
         const user: IUserModel = await UserService.findOne(req.params.id);
 
         try {
-            let external = await fetch(`http://scaffold-java/users/${user.email}`);
+            let external = await fetch(`http://coreui-java/users/${user.email}`);
             if (external.status === 200) {
                 let body = await external.json()
                 user.locale = body.locale
