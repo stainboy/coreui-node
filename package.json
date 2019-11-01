@@ -41,7 +41,7 @@
     "helmet": "^3.9.0",
     "java-properties": "^1.0.0-0",
     "joi": "^14.3.0",
-    "mongoose": "^5.5.5",
+    "mongoose": "^5.7.5",
     "node-fetch": "^2.5.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
